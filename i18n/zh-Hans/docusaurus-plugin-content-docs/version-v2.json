@@ -1,0 +1,58 @@
+{
+  "version.label": {
+    "message": "v2",
+    "description": "The label for version v2"
+  },
+  "sidebar.tutorial.category.Examples": {
+    "message": "Examples",
+    "description": "The label for category 'Examples' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Examples.link.generated-index.description": {
+    "message": "Here are rich examples to show how alova behaves in different request scenarios.The dependencies will be installed before the example runs, so wait for a while!",
+    "description": "The generated-index page description for category 'Examples' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Combine Framework": {
+    "message": "Combine Framework",
+    "description": "The label for category 'Combine Framework' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Response Cache": {
+    "message": "Response Cache",
+    "description": "The label for category 'Response Cache' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Strategy": {
+    "message": "Strategy",
+    "description": "The label for category 'Strategy' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Seamless data interaction": {
+    "message": "Seamless data interaction",
+    "description": "The label for category 'Seamless data interaction' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Advanced": {
+    "message": "Advanced",
+    "description": "The label for category 'Advanced' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Best practice": {
+    "message": "Best practice",
+    "description": "The label for category 'Best practice' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Request adapter": {
+    "message": "Request adapter",
+    "description": "The label for category 'Request adapter' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Framework": {
+    "message": "Framework",
+    "description": "The label for category 'Framework' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Custom": {
+    "message": "Custom",
+    "description": "The label for category 'Custom' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Others": {
+    "message": "Others",
+    "description": "The label for category 'Others' in sidebar 'tutorial'"
+  }
+}

@@ -13,8 +13,8 @@ const config: Config = {
     'alova is perfectly compatible with your favorite HTTP clients and UI frameworks, accelerates business logic for both client and server apps, while making API documentation and and code interactive with each other. delivering ultimate efficiency in APIs integration.',
   url: 'https://alova.js.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: "warn",
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -27,7 +27,7 @@ const config: Config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-CN'],
+    locales: ["en", "zh-Hans"],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB'
