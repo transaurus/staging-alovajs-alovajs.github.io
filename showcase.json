@@ -1,0 +1,68 @@
+[
+  {
+    "title": "soybean-admin",
+    "logo": "/img/project/soybean-admin.svg",
+    "desc": "A clean, elegant, beautiful and powerful admin template, based on Vue3, Vite5, TypeScript, Pinia, NaiveUI and UnoCSS",
+    "link": "https://github.com/soybeanjs/soybean-admin"
+  },
+  {
+    "title": "vue-bag-admin",
+    "logo": "/img/project/vue-bag-admin.png",
+    "desc": "一款开箱即用的 Vue 中后台管理系统框架，旨在让开发者能够以最小的成本完成开发 降低开发量",
+    "link": "https://github.com/hangjob/vue-bag-admin"
+  },
+  {
+    "title": "Naive Admin",
+    "logo": "/img/project/naive-ui-admin.png",
+    "desc": "开箱即用的中后台框架/简化您的中后台开发",
+    "link": "https://www.naiveadmin.com/"
+  },
+  {
+    "title": "Nova-admin",
+    "logo": "/img/project/nova-admin.png",
+    "desc": "A simple and flexible admin template based on Vue3, Vite, TypeScript, NaiveUI",
+    "link": "https://github.com/chansee97/nova-admin"
+  },
+  {
+    "title": "EMS-ESP",
+    "logo": "/img/project/ems-esp.png",
+    "desc": "ESP32 firmware to read and control EMS and Heatronic compatible equipment such as boilers, thermostats, solar modules, and heat pumps",
+    "link": "https://github.com/emsesp/EMS-ESP32"
+  },
+  {
+    "title": "MallChat",
+    "logo": "/img/project/mall-chat.png",
+    "desc": "mallchat的前端项目，是一个既能购物又能聊天的电商系统。",
+    "link": "https://github.com/Evansy/MallChatWeb"
+  },
+  {
+    "title": "KoKo",
+    "logo": "/img/project/koko.png",
+    "desc": "a connector of JumpServer for secure connections using character protocols, supporting SSH, Telnet, Kubernetes, SFTP and database protocols",
+    "link": "https://github.com/jumpserver/koko"
+  },
+  {
+    "title": "5Minutes",
+    "logo": "/img/project/5minutes.png",
+    "desc": "5minutes is a mentor-mentee learning platform where mentors share content that is consumable in no more than 5minutes.",
+    "link": "https://app.5minutes.ng/"
+  },
+  {
+    "title": "vue-shopping-cart",
+    "logo": "/img/project/vue-shopping-cart.png",
+    "desc": "Simple shopping cart with Vue.js and Deno.js",
+    "link": "https://github.com/dangvanthanh/vue-shopping-cart"
+  },
+  {
+    "title": "ScienHub",
+    "logo": "/img/project/scienhub.png",
+    "desc": "一个在线的Latex协作平台，丰富的在线模板、便捷的在线编辑器、支持AI编辑、在线预览、丰富的公式工具集等",
+    "link": "https://scienhub.com"
+  },
+  {
+    "title": "Wot-Starter",
+    "logo": "https://starter.wot-ui.cn/logo.svg",
+    "desc": "一个基于 vitesse-uni-app 深度整合 Wot UI 组件库的 uni-app 快速启动模板，告别 HBuilderX ，拥抱现代前端开发工具链",
+    "link": "https://starter.wot-ui.cn"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "version.label": {
+    "message": "v3",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorial.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Basic": {
+    "message": "Basic",
+    "description": "The label for category 'Basic' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Client": {
+    "message": "Client",
+    "description": "The label for category 'Client' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.client-request-strategy": {
+    "message": "Request Strategy",
+    "description": "The label for category 'Request Strategy' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Seamless data interaction": {
+    "message": "Seamless data interaction",
+    "description": "The label for category 'Seamless data interaction' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.In-Depth": {
+    "message": "In-Depth",
+    "description": "The label for category 'In-Depth' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Server": {
+    "message": "Server",
+    "description": "The label for category 'Server' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.server-request-strategy": {
+    "message": "Request Strategy",
+    "description": "The label for category 'Request Strategy' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Cache Details": {
+    "message": "Cache Details",
+    "description": "The label for category 'Cache Details' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Advanced": {
+    "message": "Advanced",
+    "description": "The label for category 'Advanced' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.alova In-Depth": {
+    "message": "alova In-Depth",
+    "description": "The label for category 'alova In-Depth' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Custom": {
+    "message": "Custom",
+    "description": "The label for category 'Custom' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Project": {
+    "message": "Project",
+    "description": "The label for category 'Project' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Best practice": {
+    "message": "Best practice",
+    "description": "The label for category 'Best practice' in sidebar 'tutorial'"
+  },
+  "sidebar.tutorial.category.Migration": {
+    "message": "Migration",
+    "description": "The label for category 'Migration' in sidebar 'tutorial'"
+  },
+  "sidebar.resource.category.Request Adapter": {
+    "message": "Request Adapter",
+    "description": "The label for category 'Request Adapter' in sidebar 'resource'"
+  },
+  "sidebar.resource.category.Storage Adapter": {
+    "message": "Storage Adapter",
+    "description": "The label for category 'Storage Adapter' in sidebar 'resource'"
+  },
+  "sidebar.resource.category.Framework": {
+    "message": "Framework",
+    "description": "The label for category 'Framework' in sidebar 'resource'"
+  },
+  "sidebar.resource.category.Devtool plugins": {
+    "message": "Devtool plugins",
+    "description": "The label for category 'Devtool plugins' in sidebar 'resource'"
+  }
+}

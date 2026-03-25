@@ -1,0 +1,121 @@
+{
+  "id": "4123843",
+  "name": "alova-website",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11006264",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1118",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14441174",
+      "name": "plus",
+      "font_class": "plus",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "41233743",
+      "name": "awesome",
+      "font_class": "awesome",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "41233744",
+      "name": "position",
+      "font_class": "position",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "41233607",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "41233606",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "41233605",
+      "name": "x",
+      "font_class": "x",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "41233600",
+      "name": "arrow",
+      "font_class": "arrow",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "41233601",
+      "name": "discord",
+      "font_class": "discord1",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "41233599",
+      "name": "arrow-2",
+      "font_class": "arrow-2",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "41233608",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "41233603",
+      "name": "language",
+      "font_class": "language",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "10753395",
+      "name": "stackblitz",
+      "font_class": "icon",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "22273272",
+      "name": "square",
+      "font_class": "square",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "6684308",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    }
+  ]
+}

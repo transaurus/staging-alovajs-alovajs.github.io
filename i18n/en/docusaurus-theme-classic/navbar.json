@@ -1,0 +1,86 @@
+{
+  "logo.alt": {
+    "message": "Alova",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Example": {
+    "message": "Example",
+    "description": "Navbar item with label Example"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.About": {
+    "message": "About",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Contributing": {
+    "message": "Contributing",
+    "description": "Navbar item with label Contributing"
+  },
+  "item.label.Showcase": {
+    "message": "Showcase",
+    "description": "Navbar item with label Showcase"
+  },
+  "item.label.Getting Started": {
+    "message": "Getting Started",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Request Adapter": {
+    "message": "Request Adapter",
+    "description": "Navbar item with label Request Adapter"
+  },
+  "item.label.Storage Adapter": {
+    "message": "Storage Adapter",
+    "description": "Navbar item with label Storage Adapter"
+  },
+  "item.label.UI Frameworks": {
+    "message": "UI Frameworks",
+    "description": "Navbar item with label UI Frameworks"
+  },
+  "item.label.Devtool plugins": {
+    "message": "Devtool plugins",
+    "description": "Navbar item with label Devtool plugins"
+  },
+  "item.label.Error Reference": {
+    "message": "Error Reference",
+    "description": "Navbar item with label Error Reference"
+  },
+  "item.label.Request Scene Model": {
+    "message": "Request Scene Model",
+    "description": "Navbar item with label Request Scene Model"
+  },
+  "item.label.Comparison": {
+    "message": "Comparison",
+    "description": "Navbar item with label Comparison"
+  },
+  "item.label.Releases": {
+    "message": "Releases",
+    "description": "Navbar item with label Releases"
+  },
+  "item.label.FAQs": {
+    "message": "FAQs",
+    "description": "Navbar item with label FAQs"
+  },
+  "item.label.Contributing Guidelines": {
+    "message": "Contributing Guidelines",
+    "description": "Navbar item with label Contributing Guidelines"
+  },
+  "item.label.Become core member": {
+    "message": "Become core member",
+    "description": "Navbar item with label Become core member"
+  },
+  "item.label.Developing Guidelines": {
+    "message": "Developing Guidelines",
+    "description": "Navbar item with label Developing Guidelines"
+  },
+  "item.label.Code of conduct": {
+    "message": "Code of conduct",
+    "description": "Navbar item with label Code of conduct"
+  }
+}

@@ -1,0 +1,853 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要找的页面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::warning)"
+  },
+  "theme.blog.archive.title": {
+    "message": "历史博文",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "历史博文",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博文列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的博文",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧的博文",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博文分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇博文",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有标签「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗黑模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "页面路径",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 个项目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文档分页导航",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档带有标签",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "标题的直接链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "选择版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近博文导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "复制成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "打开/收起侧边栏菜单「{label}」",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页总览",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "阅读需 {readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "theme.tips.supportMe.prefix": {
+    "message": "如果你也喜欢alova，",
+    "description": "The tips of support me snippet1"
+  },
+  "theme.tips.supportMe.linkText": {
+    "message": "请在Github为它点亮star！",
+    "description": "The tips of support me snippet2"
+  },
+  "theme.featureBlock.learnMore": {
+    "message": "查看详情"
+  },
+  "homepage.title": {
+    "message": "极致高效的请求工具集，助你极致高效集成API",
+    "description": "网站title"
+  },
+  "homepage.title.position": {
+    "message": "极致高效的请求工具集",
+    "description": "网站title"
+  },
+  "homepage.tagline": {
+    "message": "alova完美兼容你最喜欢的HTTP client和UI框架，快速开发客户端和服务的应用的业务逻辑，同时让API信息与代码进行交互，像虫洞一样拉近后端协作距离，极致高效地集成你的APIs",
+    "description": "网站tagline"
+  },
+  "homepage.automaticGenerate.sectionTitle": {
+    "message": "先进的OpenAPI方案",
+    "description": "section title for automatic generate"
+  },
+  "homepage.automaticGenerate.title": {
+    "message": "把API文档搬到编辑器",
+    "description": "title for automatic generate"
+  },
+  "homepage.automaticGenerate.description": {
+    "message": "alova的开发工具支持API信息和代码之间的交互式通信，在编码的同时搜索API和查看其完整信息，所有这些都无需离开你的编辑器。",
+    "description": "desc for automatic generate"
+  },
+  "homepage.automaticGenerate.Browse API docs in your editor": {
+    "message": "在编辑器中浏览API文档",
+    "description": "desc for automatic generate"
+  },
+  "homepage.automaticGenerate.Locate API by its url or description": {
+    "message": "根据API的url或描述定位API",
+    "description": "desc for automatic generate"
+  },
+  "homepage.automaticGenerate.API Parameters and Response at a glance": {
+    "message": "API参数和响应一目了然",
+    "description": "desc for automatic generate"
+  },
+  "homepage.requestStrategy.sectionTitle": {
+    "message": "请求策略",
+    "description": "section title for requestStrategy"
+  },
+  "homepage.requestStrategy.title": {
+    "message": "业务开发杀手锏",
+    "description": "title for requestStrategy"
+  },
+  "homepage.requestStrategy.description": {
+    "message": "alova提供了20+业务模块，我们称之为请求策略，可以帮你快速实现客户端和服务端应用的业务逻辑开发。",
+    "description": "desc for requestStrategy"
+  },
+  "homepage.requestStrategy.Pagination Request.title": {
+    "message": "分页请求",
+    "description": "title for Pagination Request"
+  },
+  "homepage.requestStrategy.Pagination Request.description": {
+    "message": "自动管理分页数据，数据预加载，减少不必要的数据刷新，流畅度提高300%，编码难度降低50%",
+    "description": "desc for Pagination Request"
+  },
+  "homepage.requestStrategy.Watching Request.title": {
+    "message": "监听请求",
+    "description": "title for Pagination Request"
+  },
+  "homepage.requestStrategy.Watching Request.description": {
+    "message": "状态变化立即发送请求，这在tabs切换和条件查询中很有用。",
+    "description": "desc for Pagination Request"
+  },
+  "homepage.requestStrategy.Retry Request.title": {
+    "message": "请求重试",
+    "description": "title for Pagination Request"
+  },
+  "homepage.requestStrategy.Retry Request.description": {
+    "message": "在重要的请求上使用它，可以提高请求的稳定性",
+    "description": "desc for Pagination Request"
+  },
+  "homepage.requestStrategy.Rate Limit.title": {
+    "message": "请求速率限制",
+    "description": "title for Rate Limit"
+  },
+  "homepage.requestStrategy.Rate Limit.description": {
+    "message": "将请求率限制在一定时间内",
+    "description": "desc for Rate Limit"
+  },
+  "homepage.requestStrategy.Fetch Data.title": {
+    "message": "预加载数据",
+    "description": "title for Fetch Data"
+  },
+  "homepage.requestStrategy.Fetch Data.description": {
+    "message": "预加载数据以更快地显示视图，或跨组件重新拉取数据",
+    "description": "desc for Fetch Data"
+  },
+  "homepage.requestStrategy.Token authentication.title": {
+    "message": "Token身份认证",
+    "description": "title for Token authentication"
+  },
+  "homepage.requestStrategy.Token authentication.description": {
+    "message": "支持无感刷新Token的全局拦截器，并提供基于令牌的登录、注销、令牌分配和令牌刷新的统一管理",
+    "description": "desc for Token authentication"
+  },
+  "homepage.requestStrategy.Form Submission.title": {
+    "message": "表单提交",
+    "description": "title for Form Submission"
+  },
+  "homepage.requestStrategy.Form Submission.description": {
+    "message": "自动管理表单数据，让你快速实现各种表单功能",
+    "description": "desc for Form Submission"
+  },
+  "homepage.requestStrategy.Auto refresh data.title": {
+    "message": "自动刷新数据",
+    "description": "title for Auto refresh data"
+  },
+  "homepage.requestStrategy.Auto refresh data.description": {
+    "message": "通过浏览器事件自动刷新数据，界面始终显示最新数据",
+    "description": "desc for Auto refresh data"
+  },
+  "homepage.requestStrategy.More Strategy.title": {
+    "message": "学习共20+个请求策略"
+  },
+  "homepage.requestStrategy.More Strategy.Client": {
+    "message": "客户端策略"
+  },
+  "homepage.requestStrategy.More Strategy.Server": {
+    "message": "服务端策略"
+  },
+  "homepage.Flexible.sectionTitle": {
+    "message": "灵活性",
+    "description": "section title for Flexible"
+  },
+  "homepage.Flexible.title": {
+    "message": "与任何请求工具在任何JS环境下运行",
+    "description": "title for Flexible"
+  },
+  "homepage.Flexible.description": {
+    "message": "Use hooks起源于functional组件，但alova创新性地使其与options和class风格的UI框架兼容，这意味着alova的客户端请求策略几乎不受JS环境和UI框架的限制，可以与您熟悉的请求工具一起使用",
+    "description": "desc for Flexible"
+  },
+  "homepage.Join the community.sectionTitle": {
+    "message": "加入社区",
+    "description": "section title for Join the community"
+  },
+  "homepage.Join the community.title": {
+    "message": "深受全球开发者的信赖",
+    "description": "title for Join the community"
+  },
+  "homepage.Join the community.description": {
+    "message": "依赖alova的开源项目",
+    "description": "desc for Join the community"
+  },
+  "homepage.projects.Scott Hu.desc": {
+    "message": "alova创建者"
+  },
+  "homepage.projects.Scott Hu.comment": {
+    "message": "像fetch和axios这样的请求库使请求变得非常简单，react-query和swr又进一步减少了请求的模板代码。但alova的目标是提供极致的API消费效率，消除几乎所有的请求工作，实现更高效的客户端-服务器数据交互"
+  },
+  "homepage.projects.0x1EC10D.comment": {
+    "message": "alova是真的很细致，我看文档的时候每一个点都是痛点，解决了超多问题"
+  },
+  "homepage.projects.Ah jung.comment": {
+    "message": "alovajs很不错。我打算将我们的产品统一换成alovajs"
+  },
+  "homepage.Alova team.sectionTitle": {
+    "message": "Alova 团队",
+    "description": "section title for Alova team"
+  },
+  "homepage.Alova team.title": {
+    "message": "认识核心成员",
+    "description": "title for Alova team"
+  },
+  "homepage.Try It Now.sectionTitle": {
+    "message": "现在尝试 Alova",
+    "description": "section title for Try It Now"
+  },
+  "homepage.Try It Now.title": {
+    "message": "将你的开发效率提升到上一个层次",
+    "description": "title for Try It Now"
+  },
+  "homepage.relationTitle": {
+    "message": "alova和请求库的关系",
+    "description": "关系标题"
+  },
+  "homepage.relationDesc": {
+    "message": "传统promise式的请求库很好地解决了请求发送的问题，只是...它们只是单纯的请求发送工具",
+    "description": "关系描述"
+  },
+  "homepage.relationAuxi": {
+    "message": "alova像它们的武器装备，通过alova可以获得更强大的能力，不管您喜欢使用axios、superagent，还是浏览器的fetch-api，alova都可以完美兼容",
+    "description": "关系附加信息"
+  },
+  "homepage.Examples": {
+    "message": "示例",
+    "description": "示例按钮文字"
+  },
+  "homepage.Getting Started": {
+    "message": "快速开始",
+    "description": "开始按钮文字"
+  },
+  "homepage.features.Simple and familiar": {
+    "message": "简单熟悉",
+    "description": "简单熟悉"
+  },
+  "homepage.features.Simple and familiar.desc": {
+    "message": "与axios相似的api设计，让您上手更简单熟悉",
+    "description": "description of feature"
+  },
+  "homepage.features.High performance request strategy": {
+    "message": "高性能请求策略",
+    "description": "高性能请求策略"
+  },
+  "homepage.features.High performance request strategy.desc": {
+    "message": "10+个可直接使用的请求策略模块，选择你想要的使用就好了，还能减小请求带来的性能问题",
+    "description": "description of feature"
+  },
+  "homepage.features.Request-level cache": {
+    "message": "请求级缓存",
+    "description": "请求级缓存"
+  },
+  "homepage.features.Request-level cache.desc": {
+    "message": "提供内存模式、持久化模式等多种服务端数据缓存模式，提升用户体验，同时降低服务端压力",
+    "description": "description of feature"
+  },
+  "homepage.features.Lightweight": {
+    "message": "轻量级",
+    "description": "轻量级"
+  },
+  "homepage.features.Lightweight.desc": {
+    "message": "4kb+，只有axios的30%",
+    "description": "description of feature"
+  },
+  "homepage.availableScope.title": {
+    "message": "打破useHook使用边界",
+    "description": "description of available scope"
+  },
+  "homepage.availableScope.subtitle": {
+    "message": "现在，alova已经完美兼容了vue options，尽情使用吧！",
+    "description": "description of available scope desc"
+  },
+  "homepage.strategy.title": {
+    "message": "以声明的方式完成你的请求",
+    "description": "description of request strategy"
+  },
+  "homepage.strategy.subtitle": {
+    "message": "选择你想要使用的请求模块就好了，节省大量时间，还能让你的应用更加流畅",
+    "description": "description of request strategy desc"
+  },
+  "homepage.Custom strategy": {
+    "message": "自定义你的请求策略",
+    "description": "description of custom strategy"
+  },
+  "homepage.Custom strategy.desc": {
+    "message": "超强的扩展性可快速构建自定义请求策略",
+    "description": "description of custom strategy desc"
+  },
+  "homepage.strategy.useRequest": {
+    "message": "基础请求",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.useRequest.desc": {
+    "message": "使用useRequest请求数据，它将自动维护当前请求的相关状态",
+    "description": "description of Pagination request strategy desc"
+  },
+  "homepage.strategy.useRequest.feature1": {
+    "message": "与axios相似的用法",
+    "description": "description of useRequest feature1"
+  },
+  "homepage.strategy.useRequest.feature2": {
+    "message": "自动维护相关的状态",
+    "description": "description of useRequest feature1"
+  },
+  "homepage.strategy.useRequest.feature3": {
+    "message": "响应数据缓存",
+    "description": "description of useRequest feature2"
+  },
+  "homepage.strategy.useRequest.feature4": {
+    "message": "共享同时发起的相同请求",
+    "description": "description of useRequest feature2"
+  },
+  "homepage.strategy.useWatcher": {
+    "message": "状态变化请求",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.useWatcher.desc": {
+    "message": "在开发例如分页、数据过滤、模糊搜索等功能时，监听状态变化并立即发送请求",
+    "description": "description of useWatcher desc"
+  },
+  "homepage.strategy.useWatcher.feature1": {
+    "message": "请求防抖",
+    "description": "description of useWatcher feature1"
+  },
+  "homepage.strategy.useWatcher.feature2": {
+    "message": "保证请求时序",
+    "description": "description of useWatcher feature1"
+  },
+  "homepage.strategy.useWatcher.feature3": {
+    "message": "过滤状态变化时是否发送请求",
+    "description": "description of useWatcher feature2"
+  },
+  "homepage.strategy.useFetcher": {
+    "message": "预加载数据",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.useFetcher.desc": {
+    "message": "提前预加载数据使界面更快呈现，或跨组件重新拉取数据",
+    "description": "description of useFetcher desc"
+  },
+  "homepage.strategy.useFetcher.feature1": {
+    "message": "跨模块/组件更新视图",
+    "description": "description of useFetcher feature1"
+  },
+  "homepage.strategy.useFetcher.feature2": {
+    "message": "预加载数据",
+    "description": "description of useFetcher feature1"
+  },
+  "homepage.strategy.Pagination": {
+    "message": "分页请求策略",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.Pagination.desc": {
+    "message": "自动管理分页数据，数据预加载，减少不必要的数据刷新，流畅性提高 300%，编码难度降低 50%",
+    "description": "description of Pagination request strategy desc"
+  },
+  "homepage.strategy.Pagination.feature1": {
+    "message": "丰富全面的分页状态和事件",
+    "description": "description of Pagination feature1"
+  },
+  "homepage.strategy.Pagination.feature2": {
+    "message": "监听状态改变自动获取指定分页数据",
+    "description": "description of Pagination feature2"
+  },
+  "homepage.strategy.Pagination.feature3": {
+    "message": "预加载下一页数据",
+    "description": "description of Pagination feature3"
+  },
+  "homepage.strategy.Pagination.feature4": {
+    "message": "高性能的列表操作函数",
+    "description": "description of Pagination feature4"
+  },
+  "homepage.strategy.Seamless interact strategy": {
+    "message": "无感数据交互策略",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.Seamless interact strategy.desc": {
+    "message": "全新的交互体验，提交即响应，大幅降低网络波动造成的影响，让你的应用在网络不稳定，甚至断网状态下依然可用",
+    "description": "description of Seamless interact strategy desc"
+  },
+  "homepage.strategy.Seamless interact strategy.feature1": {
+    "message": "像操作本地数据一样，无需等待网络响应",
+    "description": "description of Seamless interact strategy desc"
+  },
+  "homepage.strategy.Seamless interact strategy.feature2": {
+    "message": "弱网或断网状态依然可用",
+    "description": "description of Seamless interact strategy desc"
+  },
+  "homepage.strategy.Seamless interact strategy.feature3": {
+    "message": "更稳定的数据同步，用户无感知的",
+    "description": "description of Seamless interact strategy desc"
+  },
+  "homepage.strategy.Seamless interact strategy.feature4": {
+    "message": "自由切换无感请求和正常网络请求",
+    "description": "description of Seamless interact strategy desc"
+  },
+  "homepage.strategy.Token authentication": {
+    "message": "Token身份认证",
+    "description": "description of Token authentication request strategy"
+  },
+  "homepage.strategy.Token authentication.desc": {
+    "message": "统一管理token认证代码，支持无感刷新 token。",
+    "description": "description of Token authentication desc"
+  },
+  "homepage.strategy.Token authentication.feature1": {
+    "message": "支持在客户端和服务端无感刷新 token",
+    "description": "description of Token authentication desc"
+  },
+  "homepage.strategy.Token authentication.feature2": {
+    "message": "自动等待 token 刷新完成",
+    "description": "description of Token authentication desc"
+  },
+  "homepage.strategy.Token authentication.feature3": {
+    "message": "统一维护 Token 身份认证的所有代码",
+    "description": "description of Token authentication desc"
+  },
+  "homepage.strategy.Token authentication.feature4": {
+    "message": "使用元数据设置请求身份",
+    "description": "description of Token authentication desc"
+  },
+  "homepage.strategy.Token authentication.feature5": {
+    "message": "放行访客请求",
+    "description": "description of Token authentication desc"
+  },
+  "homepage.strategy.Cross-component request": {
+    "message": "跨组件请求策略",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.Cross-component request.desc": {
+    "message": "消除组件层级的限制，在任意组件中快速地触发任意请求的操作函数",
+    "description": "description of Cross-component request desc"
+  },
+  "homepage.strategy.Cross-component request.feature1": {
+    "message": "跨越任意组件层级触发重新请求",
+    "description": "description of Cross-component request feature1"
+  },
+  "homepage.strategy.Form submit": {
+    "message": "表单提交策略",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.Form submit.desc": {
+    "message": "自动管理表单数据，可以快速实现各种表单",
+    "description": "description of Form submit desc"
+  },
+  "homepage.strategy.Form submit.feature1": {
+    "message": "保存表单草稿",
+    "description": "description of Form submit feature1"
+  },
+  "homepage.strategy.Form submit.feature2": {
+    "message": "多步骤表单",
+    "description": "description of Form submit feature2"
+  },
+  "homepage.strategy.Form submit.feature3": {
+    "message": "表单提交自动重置数据",
+    "description": "description of Form submit feature3"
+  },
+  "homepage.strategy.Upload": {
+    "message": "文件上传策略",
+    "description": "description of Upload strategy"
+  },
+  "homepage.strategy.Upload.desc": {
+    "message": "更简单的文件上传策略，支持对base64、Blob、ArrayBuffer、Canvas数据的自动识别和转换",
+    "description": "description of Form submit desc"
+  },
+  "homepage.strategy.Upload.feature1": {
+    "message": "自动识别和转换数据格式",
+    "description": "description of Form submit feature1"
+  },
+  "homepage.strategy.Upload.feature2": {
+    "message": "多文件同时上传",
+    "description": "description of Form submit feature2"
+  },
+  "homepage.strategy.Upload.feature3": {
+    "message": "图片预览图生成",
+    "description": "description of Form submit feature3"
+  },
+  "homepage.strategy.Send captcha": {
+    "message": "发送验证码",
+    "description": "description of Send captcha strategy"
+  },
+  "homepage.strategy.Send captcha.desc": {
+    "message": "减掉你在开发验证码发送功能时的繁琐",
+    "description": "description of Form submit desc"
+  },
+  "homepage.strategy.Send captcha.feature1": {
+    "message": "自动倒计时",
+    "description": "description of Form submit feature1"
+  },
+  "homepage.strategy.Auto refetch": {
+    "message": "自动拉取数据",
+    "description": "description of Auto refetch strategy"
+  },
+  "homepage.strategy.Auto refetch.desc": {
+    "message": "通过浏览器事件或轮询自动拉取数据，保证始终展示最新数据",
+    "description": "description of Auto refetch desc"
+  },
+  "homepage.strategy.Auto refetch.feature1": {
+    "message": "自由选择4个拉取条件",
+    "description": "description of Form submit feature1"
+  },
+  "homepage.strategy.Auto refetch.feature2": {
+    "message": "自定义拉取触发规则",
+    "description": "description of Form submit feature2"
+  },
+  "homepage.strategy.Auto refetch.feature3": {
+    "message": "支持请求节流",
+    "description": "description of Form submit feature2"
+  },
+  "homepage.strategy.Request retry strategy": {
+    "message": "请求重试策略",
+    "description": "description of Pagination request strategy"
+  },
+  "homepage.strategy.Request retry strategy.desc": {
+    "message": "在重要的请求上使用它，可以提高请求的稳定性",
+    "description": "description of Request retry strategy desc"
+  },
+  "homepage.strategy.Request retry strategy.feature1": {
+    "message": "自定义是否重试，以及重试延迟",
+    "description": "description of Request retry strategy feature1"
+  },
+  "homepage.strategy.Request retry strategy.feature2": {
+    "message": "手动停止重试",
+    "description": "description of Request retry strategy feature2"
+  },
+  "homepage.strategy.SSE": {
+    "message": "SSE",
+    "description": "description of SSE strategy"
+  },
+  "homepage.strategy.SSE.desc": {
+    "message": "通过Server-sent Events进行请求",
+    "description": "description of SSE desc"
+  },
+  "homepage.strategy.SSE.feature1": {
+    "message": "通过全局响应和方法实例的函数transformData自动转换数据",
+    "description": "description of SSE feature1"
+  },
+  "homepage.strategy.SSE.feature2": {
+    "message": "EventSource的全部控制",
+    "description": "description of SSE feature2"
+  },
+  "homepage.strategy.More details": {
+    "message": "查看详情",
+    "description": "description of btnDetail of strategy"
+  },
+  "homepage.support.title": {
+    "message": "与任何请求工具在任何JS环境下运行",
+    "description": "description of support title"
+  },
+  "homepage.support.subtitle": {
+    "message": "use hooks起源于functional component, 但alova创新性地将它兼容了options和class风格的UI框架，这意味着alova的use hooks几乎不受JS环境和UI框架限制，并且可以与你熟悉的请求工具一起使用",
+    "description": "description of support subtitle"
+  },
+  "homepage.contributors.title": {
+    "message": "感谢有你们",
+    "description": "description of contributors title"
+  },
+  "homepage.contributors.subtitle": {
+    "message": "alova贡献者们的智慧和力量，正在让alova变得越来越完美",
+    "description": "description of contributors subtitle"
+  },
+  "homepage.like.title": {
+    "message": "如果你也喜欢alova",
+    "description": "description of support title"
+  },
+  "homepage.like.btnGithub": {
+    "message": "在Github点星",
+    "description": "description of like btnGithub"
+  },
+  "homepage.like.btnX": {
+    "message": "在X关注我们",
+    "description": "description of like btnGithub"
+  },
+  "homepage.like.btnDiscord": {
+    "message": "加入Discord",
+    "description": "description of like btnDiscord"
+  },
+  "homepage.like.btnWechat": {
+    "message": "加入微信群",
+    "description": "description of like btnWechat"
+  },
+  "homepage.release.announce": {
+    "message": "alova v3已发布",
+    "description": "description of release announce"
+  },
+  "ad.project collection": {
+    "message": "alova用在项目里了吗？快来告诉我",
+    "description": "description of ad.project collection"
+  },
+  "announcement.content": {
+    "message": "如果你也喜欢alova，请为它点个star吧！",
+    "description": "description of announcement content"
+  },
+  "announcement.title": {
+    "message": "alova v3已发布",
+    "description": "description of announcement title"
+  },
+  "announcement.desc": {
+    "message": "更简单，更强大，支持客户端和服务端",
+    "description": "description of announcement description"
+  },
+  "announcement.btn1": {
+    "message": "新特性",
+    "description": "description of announcement btn1"
+  },
+  "announcement.btn2": {
+    "message": "v3.0指南",
+    "description": "description of announcement btn2"
+  },
+  "announcement.btn3": {
+    "message": "迁移到v3.0",
+    "description": "description of announcement btn2"
+  },
+  "example.open in new tab": {
+    "message": "遇到问题？点此在新页面中打开示例",
+    "description": "description of example open in new tab"
+  }
+}

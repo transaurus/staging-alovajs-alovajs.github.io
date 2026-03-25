@@ -1,0 +1,74 @@
+{
+  "link.title.Document": {
+    "message": "Document",
+    "description": "The title of the footer links column with title=Document in the footer"
+  },
+  "link.title.Resource": {
+    "message": "Resource",
+    "description": "The title of the footer links column with title=Resource in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Docs": {
+    "message": "Docs",
+    "description": "The label of footer link with label=Docs linking to tutorial/getting-started/introduce"
+  },
+  "link.item.label.Example": {
+    "message": "Example",
+    "description": "The label of footer link with label=Example linking to examples"
+  },
+  "link.item.label.API": {
+    "message": "API",
+    "description": "The label of footer link with label=API linking to api/alova"
+  },
+  "link.item.label.Contributing": {
+    "message": "Contributing",
+    "description": "The label of footer link with label=Contributing linking to contributing/overview"
+  },
+  "link.item.label.Request Adapter": {
+    "message": "Request Adapter",
+    "description": "The label of footer link with label=Request Adapter linking to resource/request-adapter"
+  },
+  "link.item.label.Storage Adapter": {
+    "message": "Storage Adapter",
+    "description": "The label of footer link with label=Storage Adapter linking to resource/storage-adapter"
+  },
+  "link.item.label.Framework Support": {
+    "message": "Framework Support",
+    "description": "The label of footer link with label=Framework Support linking to category/framework"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/S47QGJgkVb"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/alovajs"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/alovajs/alova"
+  },
+  "link.item.label.Issues": {
+    "message": "Issues",
+    "description": "The label of footer link with label=Issues linking to https://github.com/alovajs/alova/issues"
+  },
+  "link.item.label.Pull request": {
+    "message": "Pull request",
+    "description": "The label of footer link with label=Pull request linking to https://github.com/alovajs/alova/pulls"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 alova.js Team and contributors",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "alova.js",
+    "description": "The alt text of footer logo"
+  }
+}
